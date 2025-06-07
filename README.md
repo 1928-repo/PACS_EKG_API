@@ -148,8 +148,8 @@ Menerima hasil pemeriksaan EKG dari PACS EKG Client, berupa file PDF dan DICOM (
   "StudyTime": "12:30:00",
   "AcquisitionDateTime": "2024-06-25 12:30:00",
   "StudyInstanceUID": "1.2.840.113564.1234.1954.123456.123456",
-  "pdfFile": "JVBERi0xLjcKCjQgMCBvYmoKKElkZW50aXR5KQplbmRvY...",
-  "dicomFile": "PgpzdHJlYW0KeJzsfQlgVNXV7n3vZmsZCOsCWQmMx..."
+  "PdfFile": "JVBERi0xLjcKCjQgMCBvYmoKKElkZW50aXR5KQplbmRvY...",
+  "DicomFile": "PgpzdHJlYW0KeJzsfQlgVNXV7n3vZmsZCOsCWQmMx..."
 }
 ```
 
@@ -167,8 +167,8 @@ Menerima hasil pemeriksaan EKG dari PACS EKG Client, berupa file PDF dan DICOM (
 | StudyTime           | Time      | Waktu pemeriksaan (HH:mm:ss)                        |
 | AcquisitionDateTime | DateTime  | Gabungan tanggal dan waktu pemeriksaan              |
 | StudyInstanceUID    | String    | Unique identifier DICOM                             |
-| pdfFile             | String    | **Base64 encoded string** dari file PDF hasil EKG   |
-| dicomFile           | String    | **Base64 encoded string** dari file DICOM hasil EKG |
+| PdfFile             | String    | **Base64 encoded string** dari file PDF hasil EKG   |
+| DicomFile           | String    | **Base64 encoded string** dari file DICOM hasil EKG |
 
 #### Response
 
