@@ -1,0 +1,62 @@
+[
+  {
+    "NoPemeriksaan": "360666",
+    "NoRekamMedis": "AC14918",
+    "NamaDepan": "Anita",
+    "NamaBelakang": "S",
+    "JenisKelamin": "F",
+    "Berat": "",
+    "TanggalLahir": "2020-02-01",
+    "KodeAlat": "CARDIO1",
+    "NamaRuang": "Poli01",
+    "NamaDokter": "dr. Eko N."
+  },
+  {
+    "NoPemeriksaan": "360777",
+    "NoRekamMedis": "BD123",
+    "NamaDepan": "Martin",
+    "NamaBelakang": "K",
+    "JenisKelamin": "M",
+    "Berat": "",
+    "TanggalLahir": "2010-01-01",
+    "KodeAlat": "CARDIO1",
+    "NamaRuang": "Poli01",
+    "NamaDokter": "dr. Eko N."
+  },
+  {
+    "NoPemeriksaan": "360654",
+    "NoRekamMedis": "BD123",
+    "NamaDepan": "Jack",
+    "NamaBelakang": "S",
+    "JenisKelamin": "M",
+    "Berat": "",
+    "TanggalLahir": "28-03-2001",
+    "KodeAlat": "CARDIO1",
+    "NamaRuang": "Poli01",
+    "NamaDokter": "dr. Eko N."
+  },
+  {
+    "NoPemeriksaan": "360234",
+    "NoRekamMedis": "BD123",
+    "NamaDepan": "Susan",
+    "NamaBelakang": "S",
+    "JenisKelamin": "F",
+    "Berat": "",
+    "TanggalLahir": "15/05/2004",
+    "KodeAlat": "CARDIO1",
+    "NamaRuang": "Poli01",
+    "NamaDokter": "dr. Eko N."
+  },
+  {
+    "NoPemeriksaan": "66032",
+    "NoRekamMedis": "BD234",
+    "NamaDepan": "Eko",
+    "NamaBelakang": "F",
+    "JenisKelamin": "L",
+    "Berat": 88,
+    "TanggalLahir": "15/05/2004",
+    "KodeAlat": "CARDIO1",
+    "NamaRuang": "Poli01",
+    "NamaDokter": "dr. Eko N."
+  }
+]

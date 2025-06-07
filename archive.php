@@ -5,12 +5,13 @@
   function parseArchive($requestBody) {
     $archive=[];
 
-    $archive['AccessionNumber'] = $requestBody['AccessionNumber'];
+    $archive['NoPemeriksaan'] = $requestBody['NoPemeriksaan'];
     $archive['StudyInstanceUID'] = $requestBody['StudyInstanceUID'];
-    $archive['PatientID'] = $requestBody['PatientID'];
-    $archive['PatientName'] = $requestBody['PatientName'];
-    $archive['PatientBirthDate'] = $requestBody['PatientBirthDate'];
-    $archive['PatientSex'] = $requestBody['PatientSex'];
+    $archive['NoRekamMedis'] = $requestBody['NoRekamMedis'];
+    $archive['NamaPasien'] = $requestBody['NamaPasien'];
+    $archive['TanggalLahir'] = $requestBody['TanggalLahir'];
+    $archive['JenisKelamin'] = $requestBody['JenisKelamin'];
+    $archive['KodeAlat'] = $requestBody['KodeAlat'];
     $archive['StudyDate'] = $requestBody['StudyDate'];
     $archive['StudyTime'] = $requestBody['StudyTime'];
     $archive['AcquisitionDateTime'] = $requestBody['AcquisitionDateTime'];
@@ -41,8 +42,8 @@
     // ... mark worklist with AccessionNumber as COMPLETED
 
     // ... save file to the storage
-    file_put_contents('archive/'.$archive['AccessionNumber'].'.dcm', $archive['DicomFile']);
-    file_put_contents('archive/'.$archive['AccessionNumber'].'.pdf', $archive['PdfFile']);    
+    file_put_contents('archive/'.$archive['NamaPasien'] . "-" . $archive['NoPemeriksaan'].'.dcm', $archive['DicomFile']);
+    file_put_contents('archive/'.$archive['NamaPasien'] . "-" . $archive['NoPemeriksaan'].'.pdf', $archive['PdfFile']);    
   }
 
 
