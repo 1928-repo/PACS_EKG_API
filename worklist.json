@@ -8,7 +8,7 @@
     "Berat": "",
     "TanggalLahir": "2020-02-01",
     "KodeAlat": "CARDIO1",
-    "NamaRuang": "Poli01",
+    "NamaRuang": "Poli Jantung",
     "NamaDokter": "dr. Eko N."
   },
   {
@@ -57,6 +57,18 @@
     "TanggalLahir": "15/05/2004",
     "KodeAlat": "CARDIO1",
     "NamaRuang": "Poli01",
+    "NamaDokter": "dr. Eko N."
+  },
+  {
+    "NoPemeriksaan": "644157",
+    "NoRekamMedis": "AC31072",
+    "NamaDepan": "Asep",
+    "NamaBelakang": "Jamal",
+    "JenisKelamin": "M",
+    "Berat": "66",
+    "TanggalLahir": "2000-01-01",
+    "KodeAlat": "CARDIO1",
+    "NamaRuang": "Poli Jantung",
     "NamaDokter": "dr. Eko N."
   }
 ]

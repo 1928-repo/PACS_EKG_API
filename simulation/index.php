@@ -1,3 +1,3 @@
 <?php
-header("Location: ./inputworklist.php");
+header("Location: /simulation/inputworklist.php");
 exit;

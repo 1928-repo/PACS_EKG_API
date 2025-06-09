@@ -64,5 +64,26 @@ if (is_dir($directory)) {
             </table>
         <?php endif; ?>
     </div>
+
+
+    <div class="max-w-4xl mx-auto bg-white p-8 rounded shadow mt-80">
+        <h2 class="text-xl font-bold mb-8 text-gray-800 text-center">Clear Archive</h2>    
+        <form 
+            method="post" 
+            action="resetarchive.php" 
+            class="grid grid-cols-1 md:grid-cols-2 gap-6"
+            onsubmit="return confirm('Are you sure you want to clear the archive?');"
+        >
+            <div class="md:col-span-2">
+                <button 
+                    type="submit" 
+                    class="w-full py-4 text-lg font-semibold bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-150"
+                >
+                    Clear Archive
+                </button>
+            </div>
+        </form>
+    </div>
+
 </body>
 </html>

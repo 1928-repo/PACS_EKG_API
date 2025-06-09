@@ -6,16 +6,16 @@ $jsonFile = '../worklist.json';
 
 // Collect form data
 $data = [
-    "AccessionNumber" => $_POST["AccessionNumber"] ?? "",
-    "PatientID" => $_POST["PatientID"] ?? "",
-    "Forename" => $_POST["Forename"] ?? "",
-    "Surname" => $_POST["Surname"] ?? "",
-    "Gender" => $_POST["Gender"] ?? "",
-    "Weight" => $_POST["Weight"] ?? "",
-    "DateOfBirth" => $_POST["DateOfBirth"] ?? "",
-    "scheduledAET" => $_POST["scheduledAET"] ?? "",
-    "examRoom" => $_POST["examRoom"] ?? "",
-    "ReferringPhysician" => $_POST["ReferringPhysician"] ?? ""
+    "NoPemeriksaan" => $_POST["AccessionNumber"] ?? "",
+    "NoRekamMedis" => $_POST["PatientID"] ?? "",
+    "NamaDepan" => $_POST["Forename"] ?? "",
+    "NamaBelakang" => $_POST["Surname"] ?? "",
+    "JenisKelamin" => $_POST["Gender"] ?? "",
+    "Berat" => $_POST["Weight"] ?? "",
+    "TanggalLahir" => $_POST["DateOfBirth"] ?? "",
+    "KodeAlat" => $_POST["scheduledAET"] ?? "",
+    "NamaRuang" => $_POST["examRoom"] ?? "",
+    "NamaDokter" => $_POST["ReferringPhysician"] ?? ""
 ];
 
 // Load existing data or start fresh

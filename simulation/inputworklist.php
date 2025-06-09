@@ -33,16 +33,16 @@
         ];
 
         $fields = [
-            "AccessionNumber" => "Accession Number",
-            "PatientID" => "Patient ID",
-            "Forename" => "Forename",
-            "Surname" => "Surname",
-            "Gender" => "Gender",
-            "Weight" => "Weight (kg)",
-            "DateOfBirth" => "Date of Birth",
-            "scheduledAET" => "Scheduled AET",
-            "examRoom" => "Exam Room",
-            "ReferringPhysician" => "Referring Physician"
+            "AccessionNumber" => "No Pemeriksaan",
+            "PatientID" => "No Rekam Media",
+            "Forename" => "Nama Depan",
+            "Surname" => "Nama Belakang",
+            "Gender" => "Jenis Kelamin",
+            "Weight" => "Berat (kg)",
+            "DateOfBirth" => "Tanggal Lahir",
+            "scheduledAET" => "Kode Alat",
+            "examRoom" => "Ruang Pemeriksaan",
+            "ReferringPhysician" => "Nama Dokter"
         ];
 
         // Fields that are required
@@ -99,7 +99,12 @@
 
     <div class="w-full max-w-4xl p-10 bg-white rounded-2xl shadow-xl">
       <h2 class="text-3xl font-bold mb-8 text-gray-800 text-center">Reset Worklist</h2>    
-      <form method="post" action="resetworklist.php" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <form 
+        method="post" 
+        action="resetworklist.php" 
+        class="grid grid-cols-1 md:grid-cols-2 gap-6"
+        onsubmit="return confirm('Are you sure you want to reset the worklist ?');"
+        >
             <div class="md:col-span-2">
                 <button type="submit" class="w-full py-4 text-lg font-semibold bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-150">
                     Reset Worklist
@@ -107,6 +112,6 @@
             </div>
       </form>
     </div>
-                    </div>
+  </div>
 </body>
 </html>
